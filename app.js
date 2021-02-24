@@ -11,6 +11,7 @@ const displayCountries = countries =>{
         const countryInfo = 
             <h3>${country.name}</h3>
             <p>${country.capital}</p>
+            
         countryDiv.innerHTML = countryInfo;
         countriesDiv.appendChild(countryDiv);
         
